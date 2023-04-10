@@ -45,7 +45,7 @@ const cargarTabla = () => {
         <td>
         <div class="d-flex gap-2">
         <button class="btn btn-outline-warning" onclick="mostrarModal(${item.id})"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-        <button class="btn btn-outline-danger" onclick="borrarGift(${item.id})"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <button class="btn btn-outline-danger" onclick="borrarGift(${item.id})"><i class="fa fa-times text-white" aria-hidden="true"></i></button>
         </div>
         </td>
         `;
