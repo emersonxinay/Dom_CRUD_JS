@@ -1,4 +1,4 @@
-import datos from "../data/data.json" assert { type: "json" };
+import datos from "../../data/data.json" assert { type: "json" };
 import { Gift } from "./clases.js";
 
 const cuerpoTabla = document.querySelector("#cuerpo-tabla");
